@@ -10,8 +10,8 @@ Using Access Token only
 <pre>
 1.Upload Script to CPanel
 </pre>
-<pre>
 ##
+<pre>
 2.Input your Access Token from any apps in FADXPL017_Token.txt 
 or
 Create index.php to Post "token" with action "FADXPL017_Submit.php
