@@ -28,9 +28,10 @@ $xploit = curl("https://graph.facebook.com/". $data->id ."/reactions?", array(
 "access_token"=>$token));
 $fadillah = json_decode($xploit);
 if($fadillah=="200")
-echo "Success Liked ID ". $data->id ." From : ". $data->from->name ." // by Kitsune Bot
+echo "Success Reacted ID ". $data->id ." From : ". $data->from->name ." //Script  by FADXPL017
 <br>";
-else echo "Success Reacted ID ". $data->id ." From : ". $data->from->name ." // by Kitsune Bot
+else echo "Success Reacted ID ". $data->id ." From : ". $data->from->name ." //Script  by FADXPL017
 <br>";
 //sleep(1);
 }
+?>
