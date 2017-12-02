@@ -4,36 +4,41 @@ PHP Script Bot Reaction
 ##
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ##
-No Need Username and Password
-Using Access Token only
+No Need Username and Password because work with Access Token only but not work with Graph API Explorer Access Token APP. 
+
+Use this Access Token APP "Facebook for iPhone" it's work!
+
 ##
 <pre>
-1.Upload Script to CPanel
+Support Type: 
+LIKE,LOVE,HAHA,WOW,SAD,ANGRY
 </pre>
 ##
 <pre>
-2.Input your Access Token from any apps in FADXPL017_Token.txt 
-or
-Create index.php to Post "token" with action "FADXPL017_Submit.php
-it's easy for saving access token
+How to Use?: 
+reaction.php?type=(TYPE REACTION)&token=(YOUR ACCESS TOKEN)
 </pre>
 ##
 <pre>
-3.Change Type Reaction
-Edit FADXPL017_TypeReaction.txt change "LIKE" with {LIKE,LOVE,HAHA,WOW,SAD,ANGRY} 
-not work for {THANKFUL,PRIDE}
-select 1 only 
+Example: 
+http://127.0.0.1/reaction.php?type=HAHA&token=EAAAAAYsX7TsBAgaHpfsYad7xehpUsXbOcfD0bZAbjFdMnaW47nqm...
+Result:
+Content ID : 100011400276720_622574058132598 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100022361084703_156831831738852 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100005295270270_763198163866686 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100022361084703_156830498405652 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100021897593283_171250506948201 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100007254768805_1966272020291271 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100009589936741_1963360997326879 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100007871438828_1969744636631232 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100009589936741_1963359380660374 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 206763943191477_238670726667465 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100006113237937_2017522815128140 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100017659176138_171497273448911 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100009166088815_1899531590362359 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100008973551885_1725931917715910 [SUCCESS] Reacted // Script by FADXPL017
+Content ID : 100005295270270_763193970533772 [SUCCESS] Reacted // Script by FADXPL017
 </pre>
 ##
-<pre>
-4.Test Your bot by execute FADXPL017_BotReaction.php from Web Browser
-if you got This Warning "Invalid Argument" is meaning your Access Token is Wrong or Expired 
-you can regenerate Access Token then submit again
-</pre>
-##
-<pre>
-5.Create Cron
-Create Cron FADXPL017_BotReaction.php for auto reacting
-Recommended : 2 Minutes 
-</pre>
-##
+
+
